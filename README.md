@@ -24,44 +24,39 @@ Methodology
 Evaluation: Used RMSE (Root Mean Squared Error) to measure performance on the test set, achieving the best RMSE of 3.67 from gradient boosting with early stopping to prevent overfitting.
 Technologies: Python, Pandas, Scikit-learn, XGBoost, Matplotlib, Jupyter Notebook, seaborn, Visual Studio.
 
-Installation
+**Installation**
 
 Clone the repository:git clone https://github.com/bamanyeronald/Predictive-Model-to-predict-Calorie-expenditure-with-different-algorithms
 
-
 Navigate to the project directory:calorie-expenditure-prediction
-
 
 Install dependencies:pip install -r requirements.txt
 
-
 Ensure the dataset (train.csv, test.csv) is placed in the data/ folder.
 
-Usage
-
+**Usage**
 Run the main script to train and evaluate the model:python src/main.py
-
 
 Explore the Jupyter Notebook (notebooks/exploration.ipynb) for data analysis and model experimentation.
 View model predictions and feature importance plots in the outputs/ folder.
 
-Results
+**Results**
 
 Achieved an RMSE of 3.67 on the test set using Gradient Boosting with early stopping.
 Key features (weight, exercise intensity, duration) were identified as the most predictive, aligning with physiological principles.
 The model generalizes well across diverse user profiles, suitable for real-world fitness applications.
 
-Productionization
+**Productionization**
 
 Built a web application with flask where you can input the different features to give you a prediction on how many calories have been burnt during an exercise
 
-Future Work
+**Future Work**
 
 Incorporate additional features (e.g., body fat percentage, exercise type) for enhanced accuracy.
 Deploy the model as an API for integration with fitness apps or wearables.
 Explore deep learning models (e.g., neural networks) for complex feature interactions.
 
-Contributing
+**Contributing**
 Contributions are welcome! Please open an issue or submit a pull request for bug fixes, feature additions, or documentation improvements.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
